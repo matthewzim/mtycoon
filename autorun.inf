@@ -1,0 +1,12 @@
+[autorun]
+open = MTInstall.exe
+icon = MTInstall.exe,0
+
+shell\setup = Install Monpoly Tycoon
+shell\setup\command = MTInstall.exe
+
+shell\directx = Install DirectX 8.0
+shell\directx\command = Redist\directx8a\dxsetup.exe
+
+shell\Gamespy = Install GameSpy
+shell\Gamespy\command = Redist\GameSpy\ArcadeInstallMTYCOON108c.exe
